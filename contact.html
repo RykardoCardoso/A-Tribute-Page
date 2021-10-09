@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<title>Ben Bohmer - Contact</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="css/homeContactStyles.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="js/jquery-1.11.1.js"></script>
+<body id="main">
+<!-- My nav -->
+<nav class="fixedBar" id="mainNav">
+	<div class="links">
+		<a class="logo" href="/" target="_self"><img src="images/bohmerLogoB.svg" alt="Ben Böhmer"></a>
+		<ul>
+			<li><a class="hideMobile" href="/" target="_self">HOME</a></li>
+			<li><a class="hideMobile" href="#tribute-link" target="_self"><i class="fa fa-user"></i> ABOUT</a></li>
+			<li><a class="hideMobile" href="#portfolio" target="_self"><i class="fa fa-th"></i> PORTFOLIO</a></li>
+			<li><a class="hideMobile" href="contact.html" target="_self"><i class="fa fa-envelope"></i> CONTACT</a></li>
+
+			<li><a class="search" href="#" target="_self"><i class="fa fa-search"></i></a></li>
+			<li><a class="mobileMenuButton" href="#" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a></li>
+		</ul>
+	</div>
+    
+    <!-- Navbar on small screens -->
+	<div id="navMobile">
+    	<a href="#tribute-link" class="item">ABOUT</a>
+    	<a href="#portfolio" class="item">PORTFOLIO</a>
+    		<a href="contact.html" class="item" target="_self">CONTACT</a>
+    	<a href="#" class="item">SEARCH</a>
+	</div>
+</nav>
+
+<div style="background-image: url(images/Ben-Bohmer-Live.jpg);" class="parallaxSection cFloat">
+  <div class="mask"></div>
+  <article class="article1ColStyle">
+    <div class="mainArticleTitle">
+		<h1 id="title"><b>CONTACT</b></h1>
+  	</div>
+	  
+	<div class="formMain">
+	  <div class="formHeader">
+		  <h2>Contact Form</h2>
+		  <p id="description">Feel free to expose everything you want and send me a message.</p>
+	  </div>
+		
+	  <div class="formContainer">
+	  <form id="survey-form" data-request="#">
+        <fieldset>
+            <div class="form-group">
+            <label id="name-label" class="control-label" for="name">Full name</label>
+            <input min="1" max="300" type="text" id="name" name="name" class="form-control" placeholder="Full name" required>
+          </div>
+            <div class="form-group">
+            <label id="email-label" class="control-label" for="email">E-mail</label>
+            <input type="email" id="email" name="email" class="form-control" placeholder="example@mail.com" required>
+          </div>
+		  <div class="form-group">
+            <label id="number-label" class="control-label" for="number">Phone number</label>
+            <input min="1111111" max="9999999" type="number" id="number" name="number" class="form-control" placeholder="Contact" required>
+          </div>
+		  <div class="form-group">
+			  <p>Who are you?</p>
+			  <div class="radioContainer">
+				  <input class="custom-radio" type="radio" name="Profile" value="Professional" id="Professional" required>
+				  <label for="Professional"><span></span> Professional</label>
+			  </div>
+			  <div class="radioContainer">
+				  <input class="custom-radio" type="radio" name="Profile" value="Fan" id="Fan" required>
+				  <label for="Fan"><span></span> Fan</label>
+			  </div>
+			  <div class="radioContainer">
+				  <input class="custom-radio" type="radio" name="Profile" value="Other" id="Other" required>
+				  <label for="Other"><span></span> Other</label>
+			  </div>
+			</div>
+			<div class="selectContainer">
+				<p>Subject</p>
+				<select id="dropdown" class="groupSelect" required>
+				  <option value="">Select subject</option>
+				  <option value="Booking">Booking</option>
+				  <option value="Live Sets Info">Live Sets Info</option>
+				  <option value="Online Store">Online Store</option>
+				  <option value="Feedback">Feedback</option>
+				</select>
+			</div>
+            <div class="form-group">
+				<label class="control-label" for="comment">Comments or questions you would like to ask</label>
+				<textarea maxlength="100" id="comment" name="comment" rows="5" placeholder="Post your comment here (1000 characters)"></textarea>
+          	</div>
+			<div class="checkBoxContainer cFloat">
+				<label class="labelContainer">
+					<span class="checkText">I declare that I authorize the use of the above data for commercial purposes.<br>I read and accept the <a class="standardlink6" href="#" target="_self">Privacy Policy</a>.</span>
+					<input type="checkbox" name="tc" value="Yes" required>
+					<span class="checkmark"></span>
+				</label>
+				<label class="labelContainer">
+					<span class="checkText">I want to receive communications about ongoing events or initiatives.</span>
+					<input type="checkbox" name="comuncation" value="No">
+					<span class="checkmark"></span>
+				</label>
+			</div>
+            <button id="submit" type="submit" class="btsubmit fRight">Submit</button>
+          </fieldset>	
+      	  </form>
+	
+	</div>
+
+    <span class="clearfix"></span>
+	  </div>
+	  <span class="clearfix"></span>
+  </article>
+</div>
+
+<footer>
+	<a href="#main" class="toTop" target="_self"><i style="margin-right: 15px;" class="fa fa-arrow-up"></i>To the top</a>
+	<div class="social">
+		<a href="#" target="_self"><i class="fa fa-facebook-official"></i></a>
+		<a href="#" target="_self"><i class="fa fa-instagram"></i></a>
+		<a href="#" target="_self"><i class="fa fa-snapchat"></i></a>
+		<a href="#" target="_self"><i class="fa fa-pinterest-p"></i></a>
+		<a href="#" target="_self"><i class="fa fa-twitter"></i></a>
+		<a href="#" target="_self"><i class="fa fa-linkedin"></i></a>
+	</div>
+</footer>
+ 
+<script>
+$(function(){
+
+// Used to toggle the menu on small screens when clicking on the menu button
+$('.mobileMenuButton').click(function(event){
+	event.preventDefault();
+	toggleMenuMobile();
+});
+
+$('#navMobile a').click(function(){
+	toggleMenuMobile();
+});
+
+function toggleMenuMobile() {
+    var x = document.getElementById("navMobile");
+    if (x.className.indexOf("active") == -1) {
+        x.className += "active";
+    } else {
+        x.className = x.className.replace("active", "");
+    }
+}
+
+});
+</script>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
