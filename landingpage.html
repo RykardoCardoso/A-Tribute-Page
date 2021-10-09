@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+<title>Ben Bohmer - Tribute Page</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="css/homeStyles.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="js/jquery-1.11.1.js"></script>
+<body id="main">
+<!-- My nav -->
+<header id="header">
+<nav class="fixedBar" id="nav-bar">
+	<div class="links">
+		<a class="logo" href="/" target="_self"><img id="header-img" src="images/bohmerLogo.svg" alt="Ben Böhmer"></a>
+		<ul>
+			<li><a class="hideMobile nav-link" href="#main" target="_self">HOME</a></li>
+			<li><a class="hideMobile nav-link" href="#tribute-link" target="_self"><i class="fa fa-user"></i> ABOUT</a></li>
+			<li><a class="hideMobile nav-link" href="#portfolio" target="_self"><i class="fa fa-th"></i> PORTFOLIO</a></li>
+			<li><a class="hideMobile" href="contact.html" target="_self"><i class="fa fa-envelope"></i> CONTACT</a></li>
+
+			<li><a class="search" href="#" target="_self"><i class="fa fa-search"></i></a></li>
+			<li><a class="mobileMenuButton" href="#" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a></li>
+		</ul>
+	</div>
+    
+    <!-- Navbar on small screens -->
+	<div id="navMobile">
+    	<a href="#tribute-link" class="item nav-link">ABOUT</a>
+    	<a href="#portfolio" class="item nav-link">PORTFOLIO</a>
+    		<a href="contact.html" class="item" target="_self">CONTACT</a>
+    	<a href="#" class="item">SEARCH</a>
+	</div>
+</nav>
+</header>
+<!-- First Parallax Image with Logo Text -->
+<section class="featureSection" id="featureSection">
+	<div class="mySlides" data-time="6000" style="background-image: url('images/bohmerHomeBg2.jpg');">
+		<figcaption>
+			<h1>Begin Again</h1>
+			<p>Artist Album</p>
+		</figcaption>
+	</div>
+</section>
+
+<!-- Container (About Section) RIC -->
+<div style="background-color: #1D1D1D;" class="fullWidthDiv">
+<section class="aboutSection">
+	<h2 id="title">ABOUT THE ARTIST</h2>
+	<p id="tribute-info">Ben Böhmer is a German composer, producer and DJ from Göttingen, Germany. He primarily produces and performs deep and progressive house music, and is currently signed on to the labels Anjunadeep, Keller Records, Cercle Music, and his own label - Ton Töpferei.</p>
+	<p><a id="tribute-link" class="bt" href="https://en.wikipedia.org/wiki/Ben_B%C3%B6hmer" target="_blank">Know more about BB</a></p>
+    <div id="img-div" class="col2">
+    	<figcaption id="img-caption">
+			<p><i class="fa fa-user w3-margin-right"></i> <b>Ben Böhmer</b></p>
+		</figcaption>
+		<figure>
+			<img id="image" src="images/bohmerHomeBg.jpg" width="100%">
+		</figure>
+	</div>
+	<div class="col2 hideMobile">
+    	<p>Böhmer has performed at the Distortion Festival 2017 in Copenhagen, at the Habitat Festival, Anjunadeep Open Air in London and at the Tomorrowland Festival in Belgium, in 2018. Ben Böhmer has also performed in Cyprus, the Czech Republic, France, Italy, Spain, Greece and India.[citation needed] He also performed at Group Therapy 300 in Hong Kong, an annual concert headlined by Above & Beyond. This was his first performance at a Group Therapy event.</p>
+		<p>In July 2018, he released another 3 track EP - Dive, on the Anjunadeep label.[4] In the same year, he collaborated with fellow Anjunadeep artist Lane 8 to release a remix of his track 'Hold On'.</p>
+	</div>
+	<span class="clearfix"></span>
+	<h4>He is really good at:</h4>
+	<h3><i class="fa fa-music"></i>Melody</h3>
+	<div class="specBar">
+		<div class="rating" style="width: 90%;">90%</div>
+	</div>
+	<h3><i class="fa fa-volume-up"></i>Bass Balance</h3>
+	<div class="specBar">
+		<div class="rating" style="width: 85%;">85%</div>
+	</div>
+	<h3><i class="fa fa-spinner"></i>Progression</h3>
+	<div class="specBar">
+		<div class="rating" style="width: 75%;">75%</div>
+	</div>
+</section>
+</div>
+<section class="partners">
+	<div class="col4">
+		<p class="large">14+</p>
+		<p class="small">Singles</p>
+	</div>
+	<div class="col4">
+		<p class="large">55+</p>
+		<p class="small">Releases</p>
+	</div>
+	<div class="col4">
+		<p class="large">89+</p>
+		<p class="small">Live Shows</p>
+	</div>
+	<div class="col4">
+		<p class="large">150+</p>
+		<p class="small">Dj Sets</p>
+	</div>
+</section>
+
+<div class="parallaxSection" style="background-image: url(images/Ben-Bohmer-Live.jpg);">
+	<div class="mask"></div>
+	<div class="title">
+		<h1>PORTFOLIO</h1>
+	</div>
+</div>
+	
+<div style="background-color: #1D1D1D;" class="fullWidthDiv">
+<section class="myWork" id="portfolio">
+	<h2>ALBUMs</h2>
+	<p style="text-align: center;"><em>Here are some of the latest releases.<br> Click on the images to make them bigger</em></p>
+	<div class="col4Main">
+		<div class="col4">
+			<a href="images/album1.jpg" target="_blank"><img src="images/album1.jpg" alt="Album"></a>
+		</div>
+		<div class="col4">
+			<a href="images/album2.jpg" target="_blank"><img src="images/album2.jpg" alt="Album"></a>
+		</div>
+		<div class="col4">
+			<a href="images/album9.jpg" target="_blank"><img src="images/album9.jpg" alt="Album"></a>
+		</div>
+		<div class="col4">
+			<a href="images/album4.jpg" target="_blank"><img src="images/album4.jpg" alt="Album"></a>
+		</div>
+		<div class="col4">
+			<a href="images/album5.jpg" target="_blank"><img src="images/album5.jpg" alt="Album"></a>
+		</div>
+		<div class="col4">
+			<a href="images/album6.jpg" target="_blank"><img src="images/album6.jpg" alt="Album"></a>
+		</div>
+		<div class="col4">
+			<a href="images/album8.jpg" target="_blank"><img src="images/album8.jpg" alt="Album"></a>
+		</div>
+		<div class="col4">
+			<a href="images/album8.png" target="_blank"><img src="images/album8.png" alt="Album"></a>
+		</div>
+	</div>
+	<span class="clearfix"></span>
+	<h2>LIVE SHOWS</h2>
+	<p style="text-align: center;"><em>Here are some of the latest shows.</em></p>
+	<section class="flex-content-1">
+		<figure>
+			<div class="imgC">
+				<a href="images/show1.jpg" target="_blank"><img src="images/show1.jpg" alt="imagem"></a>
+			</div>
+			<figcaption>Tribe Festival - Autralia</figcaption>
+		</figure>
+		<figure>
+			<div class="imgC">
+				<a href="images/show2.jpg" target="_blank"><img src="images/show2.jpg" alt="imagem"></a>
+			</div>
+			<figcaption>Future Sound Fest - Norway</figcaption>
+		</figure>
+		<figure>
+			<div class="imgC">
+				<a href="images/show3.jpg" target="_blank"><img src="images/show3.jpg" alt="imagem"></a>
+			</div>
+			<figcaption>Cercle - France</figcaption>
+		</figure>
+		<figure>
+			<div class="imgC">
+				<a href="images/show4.jpg" target="_blank"><img src="images/show4.jpg" alt="imagem"></a>
+			</div>
+			<figcaption>Anjunabeats - England</figcaption>
+		</figure>
+		<figure>
+			<div class="imgC">
+				<a href="images/show5.jpg" target="_blank"><img src="images/show5.jpg" alt="imagem"></a>
+			</div>
+			<figcaption>Group Therapy 450 - Tokyo</figcaption>
+		</figure>
+		<figure>
+			<div class="imgC">
+				<a href="images/show6.jpeg" target="_blank"><img src="images/show6.jpeg" alt="imagem"></a>
+			</div>
+			<figcaption>Cappadocia - USA</figcaption>
+		</figure>
+		<figure>
+			<div class="imgC">
+				<a href="images/show7.jpg" target="_blank"><img src="images/show7.jpg" alt="imagem"></a>
+			</div>
+			<figcaption>Tomorrowland - Belgin</figcaption>
+		</figure>
+		<figure>
+			<div class="imgC">
+				<a href="images/show8.jpg" target="_blank"><img src="images/show8.jpg" alt="imagem"></a>
+			</div>
+			<figcaption>Deep Global Fest - Germany</figcaption>
+		</figure>
+	</section>
+	<button>LOAD MORE</button>
+	<span class="clearfix"></span>
+	<h2>LATEST SHOW</h2>
+	<p style="text-align: center;"><em>Album premier</em></p>
+	<iframe id="video" src="https://www.youtube.com/embed/TzsaL5KVvnI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</section>
+</div>
+<div class="parallaxSection" style="background-image: url(images/Ben-Bohmer-Live-Twitter.jpg);">
+	<div class="mask"></div>
+	<div class="title">
+		<h1>BOOKING</h1>
+	</div>
+</div>
+
+<!-- Contact Section RIC -->
+<section class="contactSection" id="contact">
+	<h2>WHERE I WORK</h2>
+	<p style="text-align: center; margin-bottom: 50px;"><em>I'd love your feedback!</em></p>
+	<div class="col1">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14132.997563478266!2d-87.80336261970965!3d41.86926488969736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e2c3cd0f4cbed%3A0xafe0a6ad09c0c000!2sChicago%2C+IL%2C+USA!5e0!3m2!1sen!2spt!4v1513269646679" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+	</div>
+	<div class="col2">
+		<p><i style="font-size: 24px; margin-right: 16px;" class="fa fa-map-marker fa-fw"></i> Chicago, US</p>
+		<p><i style="font-size: 24px; margin-right: 16px;" class="fa fa-phone fa-fw"></i> Phone: +00 151515</p>
+		<p><i style="font-size: 24px; margin-right: 16px;" class="fa fa-envelope fa-fw"></i> Email: mail@mail.com</p>
+		<p style="font-size: 16px; margin-top: 20px;">Leave me a message:</p>
+		<form id="form" action="https://www.freecodecamp.com/email-submit" method="post" target="_blank">
+			<input class="input50" type="text" placeholder="Name" required name="Name">
+			<input id="email" class="input50" type="email" placeholder="email" required name="email">
+			<input class="input100" type="text" placeholder="Message" required name="Message">
+        	<input id="submit" type="submit" value="SEND MESSAGE">
+        	</input>
+		</form>
+	</div>
+	<span class="clearfix"></span>
+</section>
+
+<footer>
+	<a href="#main" class="toTop" target="_self"><i style="margin-right: 15px;" class="fa fa-arrow-up"></i>To the top</a>
+	<div class="social">
+		<a href="#" target="_self"><i class="fa fa-facebook-official"></i></a>
+		<a href="#" target="_self"><i class="fa fa-instagram"></i></a>
+		<a href="#" target="_self"><i class="fa fa-snapchat"></i></a>
+		<a href="#" target="_self"><i class="fa fa-pinterest-p"></i></a>
+		<a href="#" target="_self"><i class="fa fa-twitter"></i></a>
+		<a href="#" target="_self"><i class="fa fa-linkedin"></i></a>
+	</div>
+</footer>
+ 
+<script>
+$(function(){
+
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("nav-bar");
+    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+        navbar.className = "fixedBar";
+		$('.logo img').attr('src', 'images/bohmerLogoB.svg');
+    } else {
+        navbar.className = navbar.className.replace("fixedBar", "");
+		$('.logo img').attr('src', 'images/bohmerLogo.svg');
+    }
+}
+	
+// Used to toggle the menu on small screens when clicking on the menu button
+$('.mobileMenuButton').click(function(event){
+	event.preventDefault();
+	toggleMenuMobile();
+});
+
+$('#navMobile a').click(function(){
+	toggleMenuMobile();
+});
+
+function toggleMenuMobile() {
+    var x = document.getElementById("navMobile");
+    if (x.className.indexOf("active") == -1) {
+        x.className += "active";
+    } else {
+        x.className = x.className.replace("active", "");
+    }
+}
+
+});
+</script>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
