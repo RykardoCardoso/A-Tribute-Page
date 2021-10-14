@@ -231,7 +231,8 @@ footer .social a:hover{
 
 .article1ColStyle{
 	position: relative;
-	width:760px;
+	width: 100%;
+	max-width:760px;
 	min-width:320px;
 	height:auto;
 	margin:auto;
@@ -713,7 +714,7 @@ form select.error{
 
 /* Media Queries */
 
-@media only screen and (max-device-width: 1024px) {
+@media (max-width:999px){
 	
 .article1ColStyle,
 .article1ColStyle:first-child{
@@ -724,14 +725,16 @@ form select.error{
 
 @media (max-width:800px){
 	
-	.article1ColStyle .mainArticleTitle h1{
-		margin:0 0 0 0;
-		padding:0 0 0 0;
-		font-size: 26px;
-		line-height: 30px;
-		font-weight: 300;
-		color: #000000;
-		text-align: center;
+	nav ul li a.mobileMenuButton{
+		display: block;
+	}
+	
+	nav ul li a.search{
+		display: none;
+	}
+	
+	.hideMobile{
+		display: none;
 	}
 	
 }
