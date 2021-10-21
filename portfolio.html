@@ -13,7 +13,7 @@
 <script src="js/jquery-1.11.1.js"></script>
 <body id="main">
 <!-- My nav -->
-<nav id="mainNav">
+<nav id="navbar">
 	<div class="links">
 		<a class="logo" href="/" target="_self"><img width="100%" src="images/RIC_LOGO_W.svg" alt="RIC"></a>
 		<ul>
@@ -37,7 +37,7 @@
 </nav>
 
 <!-- First Parallax Image with Logo Text -->
-<section class="featureSection" id="featureSection">
+<section class="featureSection" id="welcome-section">
 	<div class="mySlides" style="background-image: url('images/RIC_LOGO_bg.png');">
 		<figcaption>
 			<h1><i>&#8220;Dream big, work hard and make it happen&#8221;</i></h1>
@@ -104,7 +104,7 @@
 	</div>
 </div>
 	
-<div style="background-color: #1D1D1D;" class="fullWidthDiv">
+<div id="projects" style="background-color: #1D1D1D;" class="fullWidthDiv">
 <section class="myWork" id="portfolio">
 	<h2>Front-end</h2>
 	<p style="text-align: center;"><em>Here are some of my latest projects.<br> Click on the images to make them bigger</em></p>
@@ -142,52 +142,52 @@
 			<div class="imgC">
 				<a href="images/storymaker.png" target="_blank"><img src="images/storymaker.png" alt="imagem"></a>
 			</div>
-			<figcaption>Story Maker</figcaption>
+			<figcaption class="project-tile">Story Maker</figcaption>
 		</figure>
 		<figure>
 			<div class="imgC">
 				<a href="images/flashcards.png" target="_blank"><img src="images/flashcards.png" alt="imagem"></a>
 			</div>
-			<figcaption>Flashcards</figcaption>
+			<figcaption class="project-tile">Flashcards</figcaption>
 		</figure>
 		<figure>
 			<div class="imgC">
 				<a href="images/DiceRollerRevolution.png" target="_blank"><img src="images/DiceRollerRevolution.png" alt="imagem"></a>
 			</div>
-			<figcaption>Dice Roller</figcaption>
+			<figcaption class="project-tile">Dice Roller</figcaption>
 		</figure>
 		<figure>
 			<div class="imgC">
 				<a href="images/MemoryGameRevolution.png" target="_blank"><img src="images/MemoryGameRevolution.png" alt="imagem"></a>
 			</div>
-			<figcaption>Memory Game</figcaption>
+			<figcaption class="project-tile">Memory Game</figcaption>
 		</figure>
 		<figure>
 			<div class="imgC">
 				<a href="images/quiz2.png" target="_blank"><img src="images/quiz2.png" alt="imagem"></a>
 			</div>
-			<figcaption>Quiz</figcaption>
+			<figcaption class="project-tile">Quiz</figcaption>
 		</figure>
 		<figure>
 			<div class="imgC">
 				<a href="images/geradortabelas.png" target="_blank"><img src="images/geradortabelas.png" alt="imagem"></a>
 			</div>
-			<figcaption>Truth Tables Generator</figcaption>
+			<figcaption class="project-tile">Truth Tables Generator</figcaption>
 		</figure>
 		<figure>
 			<div class="imgC">
-				<a href="images/EscolaVirtual.png" target="_blank"><img src="images/EscolaVirtual.png" alt="imagem"></a>
+				<a href="https://www.escolavirtual.pt/" target="_blank"><img src="images/EscolaVirtual.png" alt="imagem"></a>
 			</div>
-			<figcaption>Escola Virtual (Site)</figcaption>
+			<figcaption class="project-tile">Escola Virtual (Site)</figcaption>
 		</figure>
 		<figure>
 			<div class="imgC">
 				<a href="images/portuguesmaisperto.png" target="_blank"><img src="images/portuguesmaisperto.png" alt="imagem"></a>
 			</div>
-			<figcaption>Portugues mais perto (site)</figcaption>
+			<figcaption class="project-tile">Portugues mais perto (site)</figcaption>
 		</figure>
 	</section>
-	<button>LOAD MORE</button>
+	<a id="profile-link" class="button" href="https://github.com/RykardoCardoso" target="_blank">My Github</a>
 </section>
 </div>
 <div class="parallaxSection" style="background-image: url(images/parallax7.jpg);">
@@ -257,6 +257,6 @@ function toggleMenuMobile() {
 
 });
 </script>
-<!--<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>-->
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 </html>

@@ -498,10 +498,12 @@ nav ul li a.mobileMenuButton:hover{
 	height: 100%;
 }
 
-.myWork button{
+.myWork .button{
+	width: 100%;
+	max-width: 120px;
 	color: #000000;
-    background-color: #F1F1F1;
-	padding: 12px 24px;
+    background-color: #FFFFFF;
+	padding: 10px 15px;
 	user-select: none;
 	border: none;
     display: block;
@@ -515,7 +517,7 @@ nav ul li a.mobileMenuButton:hover{
     white-space: nowrap;
 }
 
-.myWork button:hover{
+.myWork .button:hover{
     background-color: #CCCCCC;
 }
 
